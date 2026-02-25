@@ -350,3 +350,52 @@
 //     i++;
 // }
 
+// const str ="We are Learning Java sCriPt with shasid naeem"
+// const str2 =(str.toLowerCase());
+// console.log (str);
+// console.log (str2);
+
+// const str ="           This is our JS class     "
+// const str2 =str.trim();
+// console.log (str2);
+// console.log (str);
+
+// const str ="New Champion of This season is Rashid Rrom Pakistan";
+// if (str.includes("Pakistan"))
+//     console.log("Winner is from Pakistan");
+// else
+// console.log("Winner is not From Pasistan");
+
+// const url="www.withawaisazam.com";
+// if (url. startsWith("www"))
+//     console.log ("Valid URL");
+// else
+//     console.log ("Invilid URL");
+
+// const phonemum =prompt("Enter international Ph.No");
+// if (phonemum.startsWith("+"))
+//     console.log("Its Valid");
+// else
+//     console.log("inviled");
+
+// const carBrand="Mercedes";
+// let newBrand=carBrand.slice(1,4);
+// console.log(carBrand);
+// console.log(newBrand);
+
+// let str1="Welcome to";
+// let str2="Java Script";
+// let str3= str1.concat(str2);
+// console.log(str3);
+
+// let str1="Welcome to";
+// let str2="Java Script";
+// let str3= str1+str2+ " 2024";
+// console.log(str3);
+
+let mes="WE are leaning js with Shahid Naeem";
+let mes2=mes.replace("js","JavaScript")
+console.log(mes);
+console.log(mes2);
+
+
