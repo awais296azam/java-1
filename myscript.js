@@ -131,3 +131,222 @@
 //      console.log("Student is fail");
 // console.log ("univeristy of agriculture system");
 // }
+
+// alert ("What is Salary");
+// let empName = "Awais";
+// let salary = 35000;
+// let tax = 0;
+// let netsalary = 0;
+// if (salary>=25000)
+// {
+//     tax = 10/100*salary;
+// }
+// else {
+//     tax = 5/100* salary;
+// }
+// console.log ("Employe Name :", empName);
+// console.log ("Employe salary :", salary);
+// console.log ("Tax on salary :",tax);
+// netsalary = salary-tax;
+// console.log ("Net salary :", netsalary);
+
+
+// let salary=prompt("Enter Salary");
+//  let tax;
+//  let taxRate;
+//  if (salary>=0 && salary<10000)
+//  {
+//     tax = 5/100*salary;
+//     taxRate="5%";
+//  }
+//  else if (salary >=10000 && salary<100000)
+// {
+//   tax = 10/100* salary;
+//   taxRate="10%";
+// }
+// else if (salary>= 100000)
+// {
+//   tax = 20/100*salary ;
+//   taxRate="20%";
+// }
+// console.log ("Salarry", salary);
+// console.log ("Tax",taxRate,":" ,tax);
+// console.log ("Net Salary", salary-tax);
+
+// let stuName = prompt ("Enter Student Name");
+// let marks = prompt ("Enter Marks (0 to 100)");
+// let grade ;
+// if (marks>=90 && marks<= 100)
+//    grade="A";
+// else if  (marks>=80 && marks<= 89)
+//    grade="B";
+// else if (marks>=70 && marks<= 79)
+//    grade="C";
+// else if (marks>=60 && marks<= 69)
+//    grade="D";
+// else if (marks>=50 && marks<= 59)
+//    grade="E";
+// else if (marks>=0 && marks<= 49)
+//    grade="F";
+// console.log ("Student Name : ", stuName);
+// console.log ("obtained Marks : ",marks);
+// console.log ("Grades : ",grade);
+
+// let num1 = 10;
+// let num2 = 5;
+// let result = 0;
+// let operator = prompt("Enter Meeting");
+// switch (operator) {
+//     case "+":
+//         result = num1 + num2;
+//         break;
+//     case "-":
+//         result = num1 - num2;
+//         break;
+
+//     case "/":
+//         result = num1 / num2;
+//         break;
+//     case "*":
+//         result = num1 * num2;
+//         break;
+//         default:
+//             alert("Invalid Input");
+// }
+// console.log (num1,operator,num2,"=", result);
+
+// for(i=1 ; i<=10 ; i++)
+// console.log (i);
+
+// for(i=20 ; i>=1 ; i--)
+// console.log (i);
+
+// let i;
+// let sum = 0;
+// for(i=1; i<=10; i++)
+// {
+//     console.log (i);
+//     sum =sum+i;
+// }
+// console.log ("=========");
+// console.log ("Sum of Values", sum);
+// console.log ("Value of i", i);
+
+// let n= prompt("Enter any Number");
+// let i;
+// let res;
+// for(i=1;i<=10 ;i++)
+// {
+//     res=i*n;
+//     console.log(i, "x", n,"=", res);
+// }
+
+// let i=1;
+// while(i <=5)
+// {
+//     console.log (i);
+//     i++;
+// }
+
+// let empName= prompt ("Enter string");
+// let strsize =0;
+// for (let X of empName)
+// {
+//     console.log ("Latter :" ,X);
+//     strsize++;
+// }
+// console.log ("Length of string is", strsize);
+
+// let employee={
+//     FullName : "Awais Azam" ,
+//     age : 24,
+//     salary :30000,
+//     isperm: true,
+// }
+
+// for(let emp in employee){
+//     console.log (emp, ":" , employee [emp]);
+// }
+
+// let i;
+// for (i = 1; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+
+// }
+
+// let i;
+// for (i = 1; i <= 100; i++) {
+//     if (i % 2 !== 0 ) {
+//         console.log(i);
+//     }
+
+// }
+
+// let pakyear = 1947;
+// let year = 0;
+// while (year != pakyear) {
+//     let year = prompt("in which year pakistan came into  being");
+//     if (year==pakyear){
+//         console.log ("correct Answer!");
+//         break;
+//     }
+//     else if (year>pakyear){
+//         alert ("Large VAlue !Try Again");
+//     }
+//     else {
+//         alert ("Small Value ! Try Again");
+//     }
+// }
+//  console.log ("Thanks for using this program");
+
+// let empNeme="Awais Azam";
+// let country ="Pakistan";
+// console.log ("Length of first string :",empNeme,":" ,empNeme.length);
+// let strlen = country.length;
+// console.log ("length of String :",country,":",strlen);
+
+// let empNeme="Awais Azam";
+// let country ="Pakistan";
+// console.log (empNeme [0]);
+// console.log (empNeme [1]);
+// console.log (empNeme [2]);
+// console.log (empNeme [3]);
+// console.log (empNeme [4]);
+// console.log (country [6]);
+
+// let empNeme = "Awais Azam";
+// let strlen = empNeme. length;
+// for (let i = 0; i < strlen; i++) {
+//     console.log(empNeme[i]);
+// }
+
+
+// let str ="Every new day of your life,\n bring new sucess for you .\t\t\" Awais\"";
+// console.log(str);
+
+// let msg1 = `Welcome to java Script 
+// We are learning with
+// Shahid naeem`;
+// console.log (msg1);
+
+// let a=10;
+// let b=20;
+// let ans ;
+// ans=`value of a: ${a} Value of b: ${b} and sum is : ${a+b}`
+// console.log (ans);
+
+// let userName=prompt("Enter our user name");
+// console.log(`Welcome ! Mr. ${userName}`);
+
+// let no=prompt("Enter any no");
+// let i=1;
+// let res;
+// while (i<=10)
+//     {
+//     res=`${i}  X  ${no} = ${i*no}`;
+//     console.log(res);
+//     i++;
+// }
+
