@@ -41,8 +41,8 @@
 // };
 // // console.log  (person);
 // // console.log (typeof person);
-// console.log ( "Salarry of a person" , person["salarry"]); 
-// console.log ( "Age of a person" , person["age"]); 
+// console.log ( "Salarry of a person" , person["salarry"]);
+// console.log ( "Age of a person" , person["age"]);
 
 // let a=5;
 // // a++;
@@ -118,7 +118,7 @@
 // let marks=25;
 // if(marks>33)
 //      console.log ("Student is pass");
-// else 
+// else
 //      console.log("Student is fail");
 // console.log ("univeristy of agriculture Fasilabad");
 // let marks=55;
@@ -126,7 +126,7 @@
 // {
 //      console.log ("Student is pass");
 //      }
-// else 
+// else
 // {
 //      console.log("Student is fail");
 // console.log ("univeristy of agriculture system");
@@ -326,7 +326,7 @@
 // let str ="Every new day of your life,\n bring new sucess for you .\t\t\" Awais\"";
 // console.log(str);
 
-// let msg1 = `Welcome to java Script 
+// let msg1 = `Welcome to java Script
 // We are learning with
 // Shahid naeem`;
 // console.log (msg1);
@@ -393,9 +393,209 @@
 // let str3= str1+str2+ " 2024";
 // console.log(str3);
 
-let mes="WE are leaning js with Shahid Naeem";
-let mes2=mes.replace("js","JavaScript")
-console.log(mes);
-console.log(mes2);
+// let mes="WE are leaning js with Shahid Naeem";
+// let mes2=mes.replace("js","JavaScript")
+// console.log(mes);
+// console.log(mes2);
 
 
+// let fruites=["Orange", "mango" , "bnana"];
+// console.log(fruites);
+
+// let fruites=["Orange", "mango" , "bnana"];
+// console.log(fruites[1]);
+// console.log(fruites[0]);
+// console.log(fruites[2]);
+// console.log ("length of array :", fruites.length);
+
+// let fruites=["Orange", "mango" , "bnana" , "apple", "chaerry"];
+// for(let i=0;i<fruites.length ;i++){
+//     console.log(fruites[i]);
+// }
+
+// let fruites=["Orange", "mango" , "bnana" , "apple", "chaerry"];
+// for (let x of fruites){
+//     console.log (x);
+// }
+
+// let fruites=["Orange", "mango" , "bnana" , "apple", "chaerry"];
+// for(let y in fruites){
+//     console.log(fruites[y]);
+// }
+
+// let no=[2,3,6,7,9,12,17,20];
+// let sum=0;
+// for (let i of no){
+//     console.log(i);
+//     sum+=i;
+// }
+// console.log ("sum of all value", sum);
+
+// let no=[2,3,6,7,9,12,17,20];
+// for(let i=no.length ; i>=0; i--){
+//     console.log (no[i]);
+// }
+
+//  let no=[2,3,66,77,99,12,17,20];
+//  let largno=no[0];
+//  for (let i=0 ; i<no.length;i++){
+//     console.log(no[i]);
+//     if(no[i] >largno){
+//     largno =no[i];
+//     }
+//  }
+//  console.log("Largr no is ", largno);
+
+//  let no=[2,3,66,77,99,12,17,20];
+//  let count=0;
+//  for (let i=0 ; i<no.length;i++){
+//     console.log(no[i]);
+//     if(no[i]%2===0)
+//         count++;
+//     }
+//     console.log("Total even num are",count);
+
+// let fruites=["apple", "bnana","cherry"];
+// console.log(fruites);
+// fruites.push("orange","peach","grapes");
+// console.log(fruites);
+
+// let fruites=["apple", "bnana","cherry"];
+// console.log(fruites);
+// let item=fruites.pop();
+// console.log(fruites);
+// console.log(item);
+
+// let fruites=["apple", "bnana","cherry"];
+// console.log(fruites);
+//  let item=fruites.shift();
+// console.log(fruites);
+// console.log(item);
+
+// let fruites=["apple", "bnana","cherry"];
+// console.log(fruites);
+// fruites.unshift("graps","peach","orange");
+// console.log(fruites);
+
+// let fruites=["apple", "bnana","cherry"];
+// let morefruites=["mango","grapes"];
+// let animals=["lion","rat","cat","bat"]
+// let newfruites=fruites.concat(morefruites,animals);
+// console.log(fruites);
+// console.log(morefruites);
+// console.log(newfruites);
+
+// let fruites=["apple", "bnana","cherry","mango","grapes","lemon"];
+// console.log(fruites);
+// let newfruites=fruites.slice(1,4);
+// console.log(newfruites);
+
+// let fruites=["apple", "bnana","cherry","mango","grapes","lemon"];
+// console.log(fruites);
+// console.log(fruites.indexOf ("grapes"));
+
+// let fruites=["apple", "bnana","cherry","mango","grapes","lemon"];
+// console.log(fruites);
+// console.log(fruites.includes("lemon"));
+
+// let fruites=["apple", "bnana","cherry","mango","grapes","lemon"];
+// console.log(fruites);
+// console.log(fruites.sort());
+
+// let fruites=["apple", "bnana","cherry","mango","grapes","lemon"];
+// console.log(fruites);
+// console.log(fruites.reverse());
+
+// let fruites=["apple", "bnana","cherry","mango","grapes","lemon"];
+// console.log(fruites);
+// let str=fruites.join(",");
+// console.log(str);
+
+// function greet(userName){
+//     console.log("Hello "+userName+"!");
+// }
+// greet("Awais");
+
+// function  sayHello(){
+//     console.log("Welcomwe to the wold of java Script");
+//     console.log("With Shahid Naeem");
+//     console.log("Became a full stake developer");
+// }
+// sayHello();
+
+// function addNum(a,b){
+//     console.log("sum of num", a+b);
+// }
+// addNum(7,5);
+
+// function addNum(x,y){
+//     return x+y;
+// }
+// console.log("Sum of values",addNum(7,5));
+
+// function addNum(x,y){
+//     return x+y;
+// }
+// let sum=addNum(5,7);
+// console.log("Answer is ",sum);
+
+// const add=(a,b)=>{
+//     return a+b;
+// }
+// console.log (add(4,5));
+
+// const add=(a,b)=>"Welcome to JS"
+   
+// console.log (add());
+
+// function findBigNun(num1,num2){
+//     if (num1>num2){
+//     return num1;
+//     }
+//     else {
+//         return num2;
+//     }
+// }
+// let bignum=findBigNun(5,9);
+// console.log("Big Number is",bignum);
+
+// function isEven(x){
+//     return x % 2=== 0;
+// }
+// let ans=isEven(12);
+// console.log("IS num Even",ans);
+
+// let colors=["blue","red","green","yellow","orange"];
+// for (let i=0;i< colors.length;i++){
+// console.log(colors[i]);
+// }
+
+// let colors=["blue","red","green","yellow","orange"];
+// colors.forEach(function(item){
+// console.log(item);
+// });
+
+// let num=[1,2,3,4,5];
+// num.forEach(function(x){
+//     console.log(x);
+// });
+
+// let Num=[2,4,6,8,10];
+// function square(x){
+//     return x*x;
+// }
+// for (let i=0;i<Num.length;i++){
+//     console.log(`Square of ${Num[i]} is :${square(Num[i])}`)
+// }
+
+// let Num=[2,4,6,8,10];
+// Num.forEach(function(a){
+//     console.log(`Square of ${a} is :${a*a}`)
+// });
+
+let num=[3,5,7,9,11];
+let sequare=num.map(function(val){
+       return val*val;
+});
+console.log(num);
+console.log(sequare);
